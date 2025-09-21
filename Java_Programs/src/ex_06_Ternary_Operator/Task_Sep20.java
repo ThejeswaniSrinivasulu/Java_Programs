@@ -15,8 +15,7 @@ public class Task_Sep20 {
 	        
 	        // find max of 3 integers
 	        int n1 = 2; int n2 = 9;  int n3 = -11 ;
-	        int result2= n1>n2 ? (n1 > n3 ? n1 : n3) 
-	                    : (n2 > n3 ? n2 : n3);
+	        int result2= (n1>n2) ? (n1 > n3 ? n1 : n3) : (n2 > n3 ? n2 : n3);
 	        System.out.println("Maximum number is: " + result2);
 	        
 	        // Real age Identification
